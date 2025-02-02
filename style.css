@@ -1,0 +1,303 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform    : translate(-50%, -50%);  
+
+    margin-top: 35rem;
+    height: 102rem;
+    width: 40rem;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.section1 {
+    padding-bottom: 2.2rem;
+    max-width: 40rem;
+}
+
+.section1 img {
+    max-width: 40rem;
+    max-height: 20rem;
+    border-radius: 15px;
+}
+
+.section1 h1 {
+    font-family: Young serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.section1 p {
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+}
+
+.section2 {
+    margin-left: 2rem;
+}
+
+.section2 h1 {
+    font-family: Outfit;
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+    margin: 0;
+}
+
+.section2info {
+    display: flex;
+    padding-left: 0.6rem;
+    padding-top: 0.5rem;
+    align-items: center;
+    height: 1.6rem;
+}
+
+.p1-1 {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    margin: 0;
+    margin-right: 2rem;
+}
+
+.p1-2 {
+    margin: 0;
+    font-family: Outfit;
+    color: rgb(63, 56, 56);
+    margin-right: 0.2rem;
+    font-weight: 700;
+}
+
+.p1-3 {
+    font-family: Outfit;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+.section3 {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(192, 190, 190, 0.37);
+}
+
+.section3 h1 {
+    font-family: Young serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.section3info {
+    display: flex;
+    padding-left: 0.6rem;
+    padding-top: 0.5rem;
+    align-items: center;
+    height: 1.6rem;
+}
+
+.p2-1 {
+    font-family: Outfit;
+    font-size: 20px;
+    color: hsl(14, 45%, 36%);
+    margin: 0;
+    margin-right: 1.6rem;
+}
+
+.p2-2 {
+    font-family: Outfit;
+    margin: 0;
+    color: rgb(92, 91, 91);
+    font-weight: 400;
+}
+
+.section4 {
+    border-bottom: 1px solid rgba(192, 190, 190, 0.37);
+}
+
+.section4 h1 {
+    font-family: Young serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.section4info {
+    display: flex;
+    height: 3.3rem;
+}
+
+.p3-1 {
+    font-family: Outfit;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    margin: 0;
+    margin-right: 1.6rem;
+    display: inline-block;
+}
+
+.p3-2 {
+    margin: 0;
+    font-family: Outfit;
+    color: rgb(68, 57, 57);
+    margin-right: 0.2rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.p3-3 {
+    font-family: Outfit;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+}
+
+.section5 {
+    padding-bottom: 10rem;
+}
+
+.section5 h1 {
+    margin-top: 1.7rem;
+    font-family: Young serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.section5 p {
+    font-family: Outfit;
+    color: hsl(20, 1%, 43%);
+    font-weight: 400;
+    margin: 0;
+}
+
+.stattable div {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    height: 2rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid rgba(192, 190, 190, 0.37);
+}
+
+.stattable .stat1 {
+    font-family: Outfit;
+    color: hsl(20, 1%, 43%);
+    font-weight: 500;
+    margin: 0;
+    margin-left: 2rem;
+}
+
+.stattable .stat2 {
+    font-family: Outfit;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    margin: 0;
+}
+
+.stattable .lastdiv {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    height: 2rem;
+    padding-top: 1rem;
+    border: none;
+}
+
+
+/* Media Quary */
+
+@media (min-width: 1440px) {
+
+    main {
+        margin-top: 25rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    main {
+        width: 20rem;
+        padding: 1rem;
+        height: 105rem;
+    }
+
+    .section1 img {
+        width: 20rem;
+    }
+
+    .section1 h1 {
+        font-size: 20px;
+    }
+
+    .section1 p {
+        font-size: 14px;
+    }
+
+    .section2 {
+        margin-left: 0;
+    }
+
+    .section3info {
+        height: 2rem;
+    }
+    
+    .section4info {
+        height: 5rem;
+        font-size: 14px;
+    }
+
+    .stattable div, .stattable .lastdiv {
+        grid-template-columns: 200px 100px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    main {
+        width: 16rem;
+        padding: 1rem;
+    }
+
+    .section1 img {
+        width: 16rem;
+    }
+
+    .section2info {
+        font-size: 14px;
+    }
+
+    .section3info {
+        font-size: 14px;
+    }
+
+    .section4info {
+        font-size: 12px;
+    }
+
+    .stattable div, .stattable .lastdiv {
+        grid-template-columns: 150px 100px;
+    }
+
+    .section5 p {
+        font-size: 14px;
+    }
+}
+/* Media Quary */
